@@ -1,0 +1,22 @@
+export const initialFields = [
+    { id: 1, label: 'Имя', type: 'text', value: 'Admin', required: true },
+    { id: 2, label: 'Возраст', type: 'number', value: '30', required: true },
+    { id: 3, label: 'Дата рождения', type: 'date', value: '1993-01-01', required: false },
+    { id: 4, label: 'Адрес', type: 'textarea', value: 'Улица', required: false },
+    { id: 5, label: 'Пол', type: 'select', value: '', required: true, options: ['Мужской', 'Женский'] },
+    { id: 6, label: 'Страна', type: 'select', value: '', required: false, options: ['Россия', 'США', 'Германия'] },
+    { id: 7, label: 'Цвет глаз', type: 'text', value: '', required: false },
+    { id: 8, label: 'Профессия', type: 'text', value: '', required: false },
+    { id: 9, label: 'Хобби', type: 'textarea', value: '', required: false },
+    { id: 10, label: 'Женат/Замужем', type: 'checkbox', value: 'false', required: false },
+    { id: 11, label: 'Предпочтения', type: 'checkbox-group', value: '', required: false, options: ['Чтение', 'Спорт', 'Игры'] },
+    { id: 12, label: 'Язык', type: 'radio-group', value: '', required: true, options: ['Русский', 'Английский'] },
+    { id: 13, label: 'Уровень образования', type: 'select', value: '', required: true, options: ['Среднее', 'Высшее'] },
+    { id: 14, label: 'Количество детей', type: 'number', value: '0', required: false },
+    { id: 15, label: 'Рост', type: 'number', value: '', required: false },
+    { id: 16, label: 'Вес', type: 'number', value: '', required: false },
+    { id: 17, label: 'Место работы', type: 'text', value: '', required: false },
+    { id: 18, label: 'Отпуск', type: 'checkbox', value: 'false', required: false },
+    { id: 19, label: 'Автомобиль', type: 'checkbox', value: 'false', required: false },
+    { id: 20, label: 'Цвет автомобиля', type: 'text', value: '', required: false }
+];

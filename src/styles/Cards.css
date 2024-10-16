@@ -1,0 +1,14 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-list .card {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: 300px;
+}
